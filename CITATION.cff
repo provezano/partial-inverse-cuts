@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark data, please cite the associated article."
+title: "Edit-Magnitude and Curvature Boundaries in Inverse and Partial Inverse Minimum Cuts"
+type: software
+license: MIT
+version: 1.0.0
+date-released: "2026-11-22"
+repository-code: "https://github.com/provezano/partial-inverse-cuts"
+authors:
+  - family-names: "Coutinho"
+    given-names: "Felipe Provezano"
+    affiliation: "Independent Researcher, Brazil"
+    orcid: "https://orcid.org/0000-0001-7206-5856"

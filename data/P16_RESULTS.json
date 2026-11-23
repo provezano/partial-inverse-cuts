@@ -1,0 +1,210 @@
+{
+  "study": "p16_inverse_cuts_clean_2026-11-22",
+  "elapsed_seconds": 24.937,
+  "exp1_hamming_dichotomy": {
+    "total_instances": 250,
+    "overall_liu2012_infeasible_rate": 0.136,
+    "overall_liu2012_exact_opt_rate": 0.28,
+    "overall_adaptive_suboptimal_rate": 0.292,
+    "by_h": {
+      "0": {
+        "n_instances": 50,
+        "mean_m_arcs": 32.04,
+        "liu2012_infeasible_rate": 0.26,
+        "liu2012_exact_opt_rate": 0.12,
+        "adaptive_greedy_feasible_rate": 1.0,
+        "adaptive_greedy_suboptimal_rate": 0.5,
+        "adaptive_greedy_mean_rel_excess": 0.1092,
+        "alg1_exact_opt_rate": 1.0,
+        "alg1_median_ms": 0.534,
+        "alg1_mean_ms": 0.539,
+        "milp_median_ms": 3.19,
+        "milp_mean_ms": 2.796
+      },
+      "2": {
+        "n_instances": 50,
+        "mean_m_arcs": 32.66,
+        "liu2012_infeasible_rate": 0.24,
+        "liu2012_exact_opt_rate": 0.18,
+        "adaptive_greedy_feasible_rate": 1.0,
+        "adaptive_greedy_suboptimal_rate": 0.28,
+        "adaptive_greedy_mean_rel_excess": 0.0503,
+        "alg1_exact_opt_rate": 1.0,
+        "alg1_median_ms": 2.081,
+        "alg1_mean_ms": 2.112,
+        "milp_median_ms": 3.274,
+        "milp_mean_ms": 2.929
+      },
+      "4": {
+        "n_instances": 50,
+        "mean_m_arcs": 32.06,
+        "liu2012_infeasible_rate": 0.12,
+        "liu2012_exact_opt_rate": 0.18,
+        "adaptive_greedy_feasible_rate": 1.0,
+        "adaptive_greedy_suboptimal_rate": 0.3,
+        "adaptive_greedy_mean_rel_excess": 0.0408,
+        "alg1_exact_opt_rate": 1.0,
+        "alg1_median_ms": 6.116,
+        "alg1_mean_ms": 6.155,
+        "milp_median_ms": 3.325,
+        "milp_mean_ms": 2.842
+      },
+      "6": {
+        "n_instances": 50,
+        "mean_m_arcs": 32.04,
+        "liu2012_infeasible_rate": 0.0,
+        "liu2012_exact_opt_rate": 0.38,
+        "adaptive_greedy_feasible_rate": 1.0,
+        "adaptive_greedy_suboptimal_rate": 0.16,
+        "adaptive_greedy_mean_rel_excess": 0.0182,
+        "alg1_exact_opt_rate": 1.0,
+        "alg1_median_ms": 22.181,
+        "alg1_mean_ms": 22.262,
+        "milp_median_ms": 3.338,
+        "milp_mean_ms": 3.04
+      },
+      "8": {
+        "n_instances": 50,
+        "mean_m_arcs": 33.48,
+        "liu2012_infeasible_rate": 0.06,
+        "liu2012_exact_opt_rate": 0.54,
+        "adaptive_greedy_feasible_rate": 1.0,
+        "adaptive_greedy_suboptimal_rate": 0.22,
+        "adaptive_greedy_mean_rel_excess": 0.0197,
+        "alg1_exact_opt_rate": 1.0,
+        "alg1_median_ms": 86.432,
+        "alg1_mean_ms": 86.558,
+        "milp_median_ms": 3.266,
+        "milp_mean_ms": 2.924
+      }
+    }
+  },
+  "exp2_multibox_transshipment": {
+    "total_runs": 110,
+    "max_abs_obj_diff": 0.0,
+    "by_B_at_n10": {
+      "1": {
+        "alg2_median_ms": 4.041,
+        "ununcrossed_multicopy_median_ms": 2.347,
+        "explicit_2n_median_ms": 3.323,
+        "speedup_vs_multicopy": 0.58,
+        "speedup_vs_2n_lp": 0.82
+      },
+      "2": {
+        "alg2_median_ms": 4.031,
+        "ununcrossed_multicopy_median_ms": 3.896,
+        "explicit_2n_median_ms": 4.5,
+        "speedup_vs_multicopy": 0.97,
+        "speedup_vs_2n_lp": 1.12
+      },
+      "4": {
+        "alg2_median_ms": 4.095,
+        "ununcrossed_multicopy_median_ms": 7.148,
+        "explicit_2n_median_ms": 7.013,
+        "speedup_vs_multicopy": 1.75,
+        "speedup_vs_2n_lp": 1.71
+      },
+      "8": {
+        "alg2_median_ms": 4.277,
+        "ununcrossed_multicopy_median_ms": 13.727,
+        "explicit_2n_median_ms": 12.509,
+        "speedup_vs_multicopy": 3.21,
+        "speedup_vs_2n_lp": 2.92
+      },
+      "16": {
+        "alg2_median_ms": 4.751,
+        "ununcrossed_multicopy_median_ms": 26.585,
+        "explicit_2n_median_ms": 22.397,
+        "speedup_vs_multicopy": 5.6,
+        "speedup_vs_2n_lp": 4.71
+      },
+      "32": {
+        "alg2_median_ms": 6.582,
+        "ununcrossed_multicopy_median_ms": 54.843,
+        "explicit_2n_median_ms": 41.593,
+        "speedup_vs_multicopy": 8.33,
+        "speedup_vs_2n_lp": 6.32
+      }
+    },
+    "by_n_at_B16": {
+      "10": {
+        "mean_m_edges": 22.0,
+        "alg2_median_ms": 4.634,
+        "ununcrossed_multicopy_median_ms": 25.062,
+        "speedup_vs_multicopy": 5.41,
+        "max_abs_obj_diff": 0.0
+      },
+      "20": {
+        "mean_m_edges": 51.2,
+        "alg2_median_ms": 6.495,
+        "ununcrossed_multicopy_median_ms": 43.183,
+        "speedup_vs_multicopy": 6.65,
+        "max_abs_obj_diff": 0.0
+      },
+      "40": {
+        "mean_m_edges": 107.1,
+        "alg2_median_ms": 10.457,
+        "ununcrossed_multicopy_median_ms": 79.008,
+        "speedup_vs_multicopy": 7.56,
+        "max_abs_obj_diff": 0.0
+      },
+      "80": {
+        "mean_m_edges": 226.4,
+        "alg2_median_ms": 20.074,
+        "ununcrossed_multicopy_median_ms": 164.482,
+        "speedup_vs_multicopy": 8.19,
+        "max_abs_obj_diff": 0.0
+      },
+      "160": {
+        "mean_m_edges": 455.0,
+        "alg2_median_ms": 41.556,
+        "ununcrossed_multicopy_median_ms": 359.792,
+        "speedup_vs_multicopy": 8.66,
+        "max_abs_obj_diff": 0.0
+      }
+    }
+  },
+  "exp3_curvature_and_prices": {
+    "subcubic_benchmark": {
+      "n_graphs": 21,
+      "eps": 0.25,
+      "theoretical_bound": 1.25,
+      "mean_alg3_approx_ratio": 1.019998,
+      "max_alg3_approx_ratio": 1.046512,
+      "multistart_nlp_checked": 19,
+      "multistart_nlp_beat_exact_count": 0,
+      "mean_l_rounded_cover_excess": 1.0,
+      "max_l_rounded_cover_excess": 3
+    },
+    "natural_image_boundaries": {
+      "n_images": 20,
+      "capped_floor_exact_across_7x7_and_15x15_grids": "26/40",
+      "priced_vs_uniform_saving_under_cap": "0/20",
+      "unrestricted_floor_exact_across_7x7_and_15x15_grids": "18/40",
+      "capped_7x7_positive_price_regret_images": "4/20"
+    },
+    "price_ratio_sweep_20_pairs": {
+      "coordinatewise_floor_switch_rate_by_ratio": {
+        "1": 0.0,
+        "2": 0.0,
+        "4": 0.0,
+        "8": 0.0,
+        "16": 0.0
+      },
+      "coupled_two_corner_switch_rate_by_ratio": {
+        "1": 0.0,
+        "2": 0.85,
+        "4": 0.85,
+        "8": 0.85,
+        "16": 0.85
+      },
+      "coupled_two_corner_mean_cost_saving_by_ratio": {
+        "1": 0.0,
+        "2": 0.1308,
+        "4": 0.2217,
+        "8": 0.2776,
+        "16": 0.309
+      }
+    }
+  }
+}
